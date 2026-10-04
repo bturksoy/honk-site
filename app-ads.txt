@@ -1,3 +1,2 @@
-# app-ads.txt for HONK! Taxi Tycoon (BTR Interactive)
-# AdMob line will be added after the AdMob account is set up:
-# google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0
+# app-ads.txt — HONK! Taxi Tycoon (BTR Interactive)
+google.com, pub-5739429543010636, DIRECT, f08c47fec0942fa0
