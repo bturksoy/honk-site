@@ -60,13 +60,14 @@ footer{color:var(--sub);font-size:13px;margin-top:28px;text-align:center}
 <tr><td>Crash and diagnostic data collected by the ad SDK</td><td>When ads are used</td><td>Ad delivery stability and fraud prevention</td><td>Legitimate interest</td></tr>
 </table></div>
 <ul>
-<li>Game analytics is off by default. If you turn it on, gameplay events (screens, tutorial steps, level reached, purchases) are sent with a random app-instance ID to Google Analytics for Firebase (Google), so we can improve the Game and measure our ads. You can turn it off any time in Settings → Privacy. While it is off, Google’s consent mode only receives a few milestone signals (for example tutorial finished, level reached, days played) with no identifiers and no data stored on your device; Google uses them in aggregate to measure our ads. Leagues, guilds and friend codes work on your device.</li>
+<li>Game analytics: in the EU/EEA, the UK, Switzerland and Türkiye it is off until you turn it on; elsewhere it is on by default and you can turn it off. When on, gameplay events (screens, tutorial steps, level reached, purchases) are sent with a random app-instance ID to Google Analytics for Firebase (Google), so we can improve the Game and measure our ads. When off, Google’s consent mode only receives a few milestone signals (for example tutorial finished, level reached, days played) with no identifiers and nothing stored on your device. You can change this any time in Settings → Privacy.</li>
+<li>Crash reports: if the Game crashes, Firebase Crashlytics (Google) receives the crash log, device model, OS version and a random installation ID so we can fix the bug. This is on by default and you can turn it off in Settings → Privacy. Leagues, guilds and friend codes work on your device.</li>
 <li>Reminders are scheduled locally on your device; no data is sent for notifications.</li>
 <li>Your payment details (card etc.) never reach us; Google Play (or Apple) handles payment.</li>
 </ul>
 
 <h3>3. Sharing</h3>
-<p>We share data only with providers needed to run the Game: Google (Google Play billing, Google AdMob for ads and, only if you turn analytics on, Google Analytics for Firebase — see <a href="https://policies.google.com/technologies/partner-sites">how Google uses data from partner apps</a>) and RevenueCat, Inc. (purchase verification, USA). International transfers rely on appropriate safeguards such as Standard Contractual Clauses (GDPR Art. 46, KVKK Art. 9). We never sell your data.</p>
+<p>We share data only with providers needed to run the Game: Google (Google Play billing, Google AdMob for ads, Google Analytics for Firebase and Firebase Crashlytics — see <a href="https://policies.google.com/technologies/partner-sites">how Google uses data from partner apps</a>) and RevenueCat, Inc. (purchase verification, USA). International transfers rely on appropriate safeguards such as Standard Contractual Clauses (GDPR Art. 46, KVKK Art. 9). We never sell your data.</p>
 
 <h3>4. Retention</h3>
 <ul>
@@ -108,13 +109,14 @@ footer{color:var(--sub);font-size:13px;margin-top:28px;text-align:center}
 <tr><td>Reklam SDK'sının topladığı çökme ve tanılama verisi</td><td>Reklam kullanıldığında</td><td>Reklam gösteriminin kararlılığı ve sahtecilik önleme</td><td>Meşru menfaat</td></tr>
 </table></div>
 <ul>
-<li>Oyun analitiği varsayılan olarak kapalıdır. Açarsan oyun olayları (ekran, öğretici adımı, ulaşılan seviye, satın alma) rastgele bir uygulama kimliğiyle Google Analytics for Firebase’e (Google) gönderilir; oyunu iyileştirmek ve reklamlarımızı ölçmek için. Ayarlar → Gizlilik’ten istediğin an kapatabilirsin. Kapalıyken Google’ın onay modu yalnızca birkaç kilometre taşı sinyali (ör. öğretici bitti, seviyeye ulaşıldı, oynanan gün) alır; bunlarda kimlik yoktur ve cihazına bir şey kaydedilmez. Google bunları reklamlarımızı ölçmek için toplu olarak kullanır. Ligler, dernekler ve arkadaş kodları cihazında çalışır.</li>
+<li>Oyun analitiği: AB/AEA, İngiltere, İsviçre ve Türkiye’de sen açana kadar kapalıdır; diğer ülkelerde varsayılan açıktır ve kapatabilirsin. Açıkken oyun olayları (ekran, öğretici adımı, ulaşılan seviye, satın alma) rastgele bir uygulama kimliğiyle Google Analytics for Firebase’e (Google) gönderilir; oyunu iyileştirmek ve reklamlarımızı ölçmek için. Kapalıyken Google’ın onay modu yalnızca birkaç kilometre taşı sinyali (ör. öğretici bitti, seviyeye ulaşıldı, oynanan gün) alır; bunlarda kimlik yoktur ve cihazına bir şey kaydedilmez. Ayarlar → Gizlilik’ten istediğin an değiştirebilirsin.</li>
+<li>Çökme raporları: oyun çökerse Firebase Crashlytics (Google) hata kaydını, cihaz modelini, işletim sistemi sürümünü ve rastgele bir kurulum kimliğini alır; hatayı düzeltmemiz için. Varsayılan açıktır, Ayarlar → Gizlilik’ten kapatabilirsin. Ligler, dernekler ve arkadaş kodları cihazında çalışır.</li>
 <li>Hatırlatıcılar cihazında yerel olarak zamanlanır; bildirim için veri gönderilmez.</li>
 <li>Ödeme bilgilerin (kart vb.) bize hiç gelmez; ödemeyi Google Play (veya Apple) alır.</li>
 </ul>
 
 <h3>3. Aktarım</h3>
-<p>Veriler yalnız Oyunun çalışması için gereken sağlayıcılarla paylaşılır: Google (Google Play ödemeleri, reklamlar için Google AdMob ve yalnız analitiği açarsan Google Analytics for Firebase — bkz. <a href="https://policies.google.com/technologies/partner-sites?hl=tr">Google'ın iş ortağı uygulamalardaki verileri kullanımı</a>) ve RevenueCat, Inc. (satın alma doğrulama, ABD). Yurt dışına aktarım KVKK m.9 ve GDPR m.46 kapsamındaki güvencelerle (standart sözleşme hükümleri) yapılır. Verini satmayız.</p>
+<p>Veriler yalnız Oyunun çalışması için gereken sağlayıcılarla paylaşılır: Google (Google Play ödemeleri, reklamlar için Google AdMob, Google Analytics for Firebase ve Firebase Crashlytics — bkz. <a href="https://policies.google.com/technologies/partner-sites?hl=tr">Google'ın iş ortağı uygulamalardaki verileri kullanımı</a>) ve RevenueCat, Inc. (satın alma doğrulama, ABD). Yurt dışına aktarım KVKK m.9 ve GDPR m.46 kapsamındaki güvencelerle (standart sözleşme hükümleri) yapılır. Verini satmayız.</p>
 
 <h3>4. Saklama süresi</h3>
 <ul>
@@ -156,13 +158,14 @@ footer{color:var(--sub);font-size:13px;margin-top:28px;text-align:center}
 <tr><td>Absturz- und Diagnosedaten des Werbe-SDK</td><td>Bei Nutzung von Werbung</td><td>Stabile Auslieferung und Betrugsvermeidung</td><td>lit. f</td></tr>
 </table></div>
 <ul>
-<li>Spielanalyse ist standardmäßig aus. Schaltest du sie ein, werden Spielereignisse (Bildschirme, Tutorial-Schritte, erreichte Stufe, Käufe) mit einer zufälligen App-Instanz-ID an Google Analytics for Firebase (Google) gesendet, um das Spiel zu verbessern und unsere Werbung zu messen. Du kannst sie jederzeit unter Einstellungen → Datenschutz ausschalten. Solange sie aus ist, erhält Googles Einwilligungsmodus nur wenige Meilenstein-Signale (z. B. Tutorial beendet, Stufe erreicht, Spieltage) ohne Kennungen und ohne Speicherung auf deinem Gerät; Google nutzt sie zusammengefasst, um unsere Werbung zu messen. Ligen, Gilden und Freundescodes laufen auf deinem Gerät.</li>
+<li>Spielanalyse: in der EU/im EWR, im Vereinigten Königreich, in der Schweiz und in der Türkei ist sie aus, bis du sie einschaltest; anderswo ist sie standardmäßig an und du kannst sie ausschalten. Ist sie an, werden Spielereignisse (Bildschirme, Tutorial-Schritte, erreichte Stufe, Käufe) mit einer zufälligen App-Instanz-ID an Google Analytics for Firebase (Google) gesendet, um das Spiel zu verbessern und unsere Werbung zu messen. Ist sie aus, erhält Googles Einwilligungsmodus nur wenige Meilenstein-Signale (z. B. Tutorial beendet, Stufe erreicht, Spieltage) ohne Kennungen und ohne Speicherung auf deinem Gerät. Du kannst das jederzeit unter Einstellungen → Datenschutz ändern.</li>
+<li>Absturzberichte: stürzt das Spiel ab, erhält Firebase Crashlytics (Google) das Absturzprotokoll, Gerätemodell, Betriebssystemversion und eine zufällige Installations-ID, damit wir den Fehler beheben. Standardmäßig an, abschaltbar unter Einstellungen → Datenschutz. Ligen, Gilden und Freundescodes laufen auf deinem Gerät.</li>
 <li>Erinnerungen werden lokal auf deinem Gerät geplant; dafür werden keine Daten gesendet.</li>
 <li>Zahlungsdaten (Karte usw.) erreichen uns nie; die Zahlung wickelt Google Play (oder Apple) ab.</li>
 </ul>
 
 <h3>3. Weitergabe</h3>
-<p>Wir geben Daten nur an Dienstleister weiter, die für das Spiel nötig sind: Google (Google-Play-Abrechnung, Google AdMob für Werbung und nur bei eingeschalteter Analyse Google Analytics for Firebase — siehe <a href="https://policies.google.com/technologies/partner-sites?hl=de">Datennutzung durch Google bei Partner-Apps</a>) und RevenueCat, Inc. (Kaufprüfung, USA). Übermittlungen in Drittländer erfolgen mit geeigneten Garantien (Standardvertragsklauseln, Art. 46 DSGVO). Wir verkaufen keine Daten.</p>
+<p>Wir geben Daten nur an Dienstleister weiter, die für das Spiel nötig sind: Google (Google-Play-Abrechnung, Google AdMob für Werbung, Google Analytics for Firebase und Firebase Crashlytics — siehe <a href="https://policies.google.com/technologies/partner-sites?hl=de">Datennutzung durch Google bei Partner-Apps</a>) und RevenueCat, Inc. (Kaufprüfung, USA). Übermittlungen in Drittländer erfolgen mit geeigneten Garantien (Standardvertragsklauseln, Art. 46 DSGVO). Wir verkaufen keine Daten.</p>
 
 <h3>4. Speicherdauer</h3>
 <ul>
